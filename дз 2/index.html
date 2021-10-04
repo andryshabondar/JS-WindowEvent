@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="black"></div>
+    <img src="./images/pen.png" alt="">
+
+    <div class="copyBook">
+        <div class="list">
+            <p class="quest">Список завдань</p>
+            <form class="form1" name="f1" onclick="checkFalse()">
+                <div class="group" name="group">
+                    <input type="checkbox" name="check">
+                    <span>HTML</span>
+                </div>
+                <div class="group" name="group">
+                    <input type="checkbox" name="check">
+                    <span>CSS3</span>
+                </div>
+                <div class="group" name="group">
+                    <input type="checkbox" name="check">
+                    <span>SASS/SCSS</span>
+                </div>
+                <div class="group" name="group">
+                    <input type="checkbox" name="check">
+                    <span>Bootsrap</span>
+                </div>
+            </form>
+        </div>
+      
+        <div class="list2">
+            <p class="newQuest">Додати нове завдання</p>
+            <form class="form2" name="f2">
+                <input type="text" class="newCheckBox" name="inputText">
+                <input type="button" name="button" class="addCkeckBox" value="додати">
+            </form>
+        </div>
+    </div>
+
+    <div class="alert1">
+        <p class="alert1_text1">Попередження!</p>
+        <p class="alert1_text2">Пусте поле не можна добавляти.</p>
+        <input class="alert1_button" type="button" value="x">
+    </div>
+
+    <div class="alert2">
+        <p class="alert1_text1">Попередження!</p>
+        <p class="alert1_text2">Останній таск зі списку Ви не можете видалити.</p>
+        <input class="alert2_button" type="button" value="x">
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
